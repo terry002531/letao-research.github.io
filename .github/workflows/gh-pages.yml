@@ -19,7 +19,7 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.128.0' # 这里换成你本地的 Hugo 版本
+          hugo-version: 'latest'
           extended: true
 
       - name: Build site
@@ -30,3 +30,4 @@ jobs:
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
+
