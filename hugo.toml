@@ -1,0 +1,4 @@
+baseURL = "https://letao-research.com/"
+languageCode = "en-us"
+title = "Letao Research"
+theme = "PaperMod"
