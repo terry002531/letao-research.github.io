@@ -1,11 +1,6 @@
 baseURL = "https://letao-research.com/"
 languageCode = "en-us"
 title = "Letao Research"
-theme = "PaperMod"
-
-baseURL = "https://letao-research.com/"
-languageCode = "en-us"
-title = "Letao Research"
 theme = "PaperMod" # 如果你主题是 PaperMod
 
 [params]
