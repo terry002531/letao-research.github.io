@@ -2,3 +2,31 @@ baseURL = "https://letao-research.com/"
 languageCode = "en-us"
 title = "Letao Research"
 theme = "PaperMod"
+
+baseURL = "https://letao-research.com/"
+languageCode = "en-us"
+title = "Letao Research"
+theme = "PaperMod" # 如果你主题是 PaperMod
+
+[params]
+  mainSections = ["blog"]
+
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 2
+
+[[menu.main]]
+  name = "Publications"
+  url = "/publications/"
+  weight = 3
+
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 4
