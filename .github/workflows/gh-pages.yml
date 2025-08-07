@@ -33,13 +33,7 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./public
           publish_branch: gh-pages
-
-function update-blog {
-    Set-Location "C:\Users\Shi\myblog"
-    git pull origin main --rebase
-    git add .
-    git commit -m "更新网站内容"
-    git push origin main
 }
+
 
 
