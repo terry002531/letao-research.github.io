@@ -5,6 +5,7 @@ theme = "PaperMod" # 如果你主题是 PaperMod
 
 [params]
   mainSections = ["blog"]
+  author = "Terry"
 
 [[menu.main]]
   name = "Home"
